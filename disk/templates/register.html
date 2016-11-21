@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>抽獎網站</title>
+</head>
+<body>
+<h1>輸入姓名與照片</h1>
+<form method="post" enctype="multipart/form-data">
+    {{ uf.as_p }}
+<input type='submit' value="ok" />
+</form>
+<hr>
+    <li><a href="{% url 'result' %}" target="_blank">前往抽籤</a></li>
+</body>
+</html>
