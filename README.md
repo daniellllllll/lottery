@@ -1,0 +1,2 @@
+# lottery
+homework for IFPlus
